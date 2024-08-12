@@ -1,7 +1,5 @@
 # #Fortune-cookie and magic-8-ball
 
-# Fortune Cookie and Magic 8-Ball
-
 ## Description
 
 Welcome to my fun Python project! This script offers two classic amusements: the Magic 8-Ball and a virtual Fortune Cookie. You can ask the Magic 8-Ball for random answers or open a virtual fortune cookie to get a fortune and a lucky number, all presented with some cool ASCII art.
