@@ -7,22 +7,22 @@ print(random.randint(1,10))
 print(random.random())
 
 # Ask the user for their choice
-choice = input("Do you want to ask the Magic 8-Ball or open a Fortune Cookie? (Enter '8-ball' or 'fortune'): ").lower()
+choice = input("Do you want to ask the Health Oracle or receive a Wellness Tip? (Enter 'oracle' or 'wellness'): ").lower()
 
-# magic ball logic
-if choice == '8-ball':
-    magic_ball = random.randint(1, 3)
-    if magic_ball == 1:
-        print ("yes")
-    if magic_ball == 3:
-        print ("no")
-    if magic_ball == 2:
-        print ("maybe")
+# Health Oracle
+if choice == 'oracle':
+    oracle_response = random.randint(1, 3)
+    if oracle_response == 1:
+        print("Remember to stay hydrated today!")
+    elif oracle_response == 2:
+        print("Take a deep breath, your health is your wealth!")
+    elif oracle_response == 3:
+        print("A good night's sleep is the key to a healthy life!")
 
 
 
-#fortune cookie
-elif choice == 'fortune':
+#Wellness Tip
+elif choice == 'wellness':
 #Creating variable
     lucky_number = random.randint(1,100)
 
@@ -31,11 +31,11 @@ elif choice == 'fortune':
     fortune_text = ''
 
     if fortune_number ==1:
-        fortune_text= "You will have a great day!... "
+        fortune_text= "Take a walk outside, your body will thank you!... "
     elif fortune_number ==2:
-        fortune_text= "Today will be tough but hang in there...!"
+        fortune_text= "Eat your greens for a balanced diet!"
     elif fortune_number ==3:
-        fortune_text= "You will get married at!"
+        fortune_text= "Don't forget to take time for self-care!"
 
     # Print ASCII art for the fortune cookie
     print("      _____")
@@ -51,4 +51,4 @@ elif choice == 'fortune':
 
 # Handling invalid input
 else:
-    print("Invalid choice. Please enter '8-ball' or 'fortune'.")
+    print("Invalid choice. Please enter 'oracle' or 'wellness'.")
