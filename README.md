@@ -1,13 +1,13 @@
-# #Fortune-cookie and magic-8-ball
+Health Oracle and Wellness Tip
 
 ## Description
 
-Welcome to my fun Python project! This script offers two classic amusements: the Magic 8-Ball and a virtual Fortune Cookie. You can ask the Magic 8-Ball for random answers or open a virtual fortune cookie to get a fortune and a lucky number, all presented with some cool ASCII art.
+Welcome to my healthcare-themed Python project! This script offers two engaging features: the Health Oracle and a virtual Wellness Tip. You can ask the Health Oracle for random health advice or open a virtual wellness tip to receive positive affirmations or health tips, complete with some cool ASCII art.
 
 ## Features
 
-- **Magic 8-Ball**: Get a random answer to your yes/no questions.
-- **Fortune Cookie**: Receive a random fortune along with a lucky number, complete with ASCII art.
+- Health Oracle: Receive random health-related advice or motivational messages to keep you on track with your wellness journey.
+- Wellness Tip: Get a random health tip or positive affirmation along with a "lucky number," all presented with fun ASCII art.
 
 ## Installation
 
@@ -25,11 +25,11 @@ To get started with this project, you don’t need any special installations bey
 
 ## Usage
 
-Run the Python script and follow the prompts to choose between the Magic 8-Ball or the Fortune Cookie:
+Run the Python script and follow the prompts to choose between the Health Oracle or the Wellness Tip:
 
 ```bash
 python your_script_name.py
 ```
 
-- Enter `8-ball` to get a response from the Magic 8-Ball.
-- Enter `fortune` to receive a fortune cookie message and lucky number.
+- Enter oracle to receive health advice or motivational messages from the Health Oracle.
+- Enter wellness to get a wellness tip or positive affirmation along with a lucky number.
