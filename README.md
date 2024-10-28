@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to my healthcare-themed Python project! This script offers two engaging features: the Health Oracle and a virtual Wellness Tip. You can ask the Health Oracle for random health advice or open a virtual wellness tip to receive positive affirmations or health tips, complete with some cool ASCII art.
+This script offers two engaging features: the Health Oracle and a virtual Wellness Tip. You can ask the Health Oracle for random health advice or open a virtual wellness tip to receive positive affirmations or health tips, complete with some cool ASCII art.
 
 ## Features
 
